@@ -20,8 +20,12 @@ public class Kijkwijzer {
         public void voegfilmtoe(){
         array.add(new filmlijst("X-Men: Days of Future Past","horror", 1877832));
         array.add(new filmlijst("Blended","detective", 1086772)); 
+        array.add(new filmlijst("Cold in July","actie", 1179031)); 
+        array.add(new filmlijst("Stand clear of the closing doors","romantisch", 2405372)); 
+        array.add(new filmlijst("Words and Pictures","horror", 2380331)); 
+        array.add(new filmlijst("The angriest man in Brooklyn","actie", 1294970)); 
     }
-        
+ 
     public Kijkwijzer(String genre) {
         this.genre = genre;
     }
